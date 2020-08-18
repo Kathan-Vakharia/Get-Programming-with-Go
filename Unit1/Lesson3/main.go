@@ -9,13 +9,16 @@ import (
 	"time"
 )
 
-var userGuess,_ = strconv.Atoi(os.Args[1])
+var userGuess, _ = strconv.Atoi(os.Args[1])
 
 func main() {
 	fmt.Println("Welcome to the Guessing Game!")
 	fmt.Println("##############################")
 	var steps = 0
+
+	//seeding random for better results
 	rand.Seed(time.Now().UnixNano())
+
 	//- Execute till generated random number is not equal to guess
 	for {
 		computerGuess := rand.Intn(100) + 1
@@ -31,7 +34,7 @@ func main() {
 			fmt.Printf("Computer's Guess: %v ,\nMyGuess: %v\n", computerGuess, userGuess)
 			break
 		}
-		time.Sleep(time.Millisecond*500)
+		time.Sleep(time.Millisecond * 500)
 		steps++
 	}
 	fmt.Printf("The computer guessed in %v tries", steps)

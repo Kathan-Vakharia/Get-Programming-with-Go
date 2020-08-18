@@ -14,6 +14,6 @@ func main() {
 
 	//- declaring using implicit initialization syntax
 	speed := dist / (days * hoursInDay)
-	fmt.Printf("The speed rquired is %v km/hr", speed)
+	fmt.Printf("The speed required is %v km/hr", speed)
 
 }
