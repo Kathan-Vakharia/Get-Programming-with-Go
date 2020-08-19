@@ -13,4 +13,6 @@
 - [Lesson6](/Unit2/Lesson6/main.go)
 - [Lesson7](/Unit2/Lesson7/main.go)
 - [Lesson8](/Unit2/Lesson8/main.go)
-- [Lesson9](/Unit2/Lesson9/main.go)
+- Lesson9 
+    - [E-1](Unit2/Lesson9/E1/caesar.go)
+    - [E-2](Unit2/Lesson9/E2/international.go)
