@@ -18,6 +18,7 @@
     - [E-2](Unit2/Lesson9/E2/international.go)
 - [Lesson10](Unit2/Lesson10/main.go)
 - Lesson 11
-    -[E-1](Unit2/Lesson11/E1/decipher.go)
-    -[E-2](Unit2/Lesson11/E2/cipher.go)
+    - [E-1](Unit2/Lesson11/E1/decipher.go)
+    - [E-2](Unit2/Lesson11/E2/cipher.go)
 - [Lesson12](Unit3/Lesson12/functions.go)
+- [Lesson13](Unit3/Lesson13/methods.go)
