@@ -20,3 +20,4 @@
 - Lesson 11
     -[E-1](Unit2/Lesson11/E1/decipher.go)
     -[E-2](Unit2/Lesson11/E2/cipher.go)
+- [Lesson12](Unit3/Lesson12/functions.go)
