@@ -21,7 +21,12 @@
 - Lesson 11
     - [E-1](Unit2/Lesson11/E1/decipher.go)
     - [E-2](Unit2/Lesson11/E2/cipher.go)
+## Unit 3
 - [Lesson12](Unit3/Lesson12/functions.go)
 - [Lesson13](Unit3/Lesson13/methods.go)
 - [Lesson 14](Unit3/Lesson14/calibrate.go)
 - [Lesson 15](Unit3/Lesson15/tables.go)
+
+## Unit 4
+- [Lesson 16](Unit4/Lesson16/chess.go)
+- [Lesson 17](Unit4/Lesson16/chess.go)
