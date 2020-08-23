@@ -68,29 +68,29 @@ func main() {
 	curiosity := newLocation(coordinate{4, 35, 22.2, 's'}, coordinate{137, 26, 30.1, 'e'})
 	insight := newLocation(coordinate{4, 30, 0.0, 'n'}, coordinate{135, 54, 0, 'e'})
 
-	fmt.Printf("Distance between Spirit and Opportunity %5.2f km/n\n", mars.distance(spirit, opportunity))
-	fmt.Printf("Distance between Spirit and Curiosity %5.2f km/n\n", mars.distance(spirit, curiosity))
-	fmt.Printf("Distance between Spirit and Curiosity %5.2f km/n\n", mars.distance(spirit, insight))
-	fmt.Printf("Distance between Opportunity and Curiosity %5.2f km/n\n", mars.distance(opportunity, curiosity))
-	fmt.Printf("Distance between Opportunity and Insight %5.2f km/n\n", mars.distance(opportunity, insight))
-	fmt.Printf("Distance between Curiosity and Insight %5.2f km/n\n", mars.distance(curiosity, insight))
+	fmt.Printf("Distance between Spirit and Opportunity %5.2f km\n", mars.distance(spirit, opportunity))
+	fmt.Printf("Distance between Spirit and Curiosity %5.2f km\n", mars.distance(spirit, curiosity))
+	fmt.Printf("Distance between Spirit and Curiosity %5.2f km\n", mars.distance(spirit, insight))
+	fmt.Printf("Distance between Opportunity and Curiosity %5.2f km\n", mars.distance(opportunity, curiosity))
+	fmt.Printf("Distance between Opportunity and Insight %5.2f km\n", mars.distance(opportunity, insight))
+	fmt.Printf("Distance between Curiosity and Insight %5.2f km\n", mars.distance(curiosity, insight))
 
 	println("-----------------------------------------------------------------")
 	
 	london := newLocation(coordinate{51, 30, 0, 'n'}, coordinate{0, 8, 0, 'w'})
 	paris := newLocation(coordinate{48, 52, 0, 'n'}, coordinate{2, 21, 0, 'e'})
-	fmt.Printf("Distance between London and Paris %5.2f km/n\n", earth.distance(london, paris))
+	fmt.Printf("Distance between London and Paris %5.2f km\n", earth.distance(london, paris))
 
 	println("-----------------------------------------------------------------")
 	
 	mountSharp := newLocation(coordinate{5, 4, 48, 's'}, coordinate{137, 51, 0, 'e'})
 	olympusMons := newLocation(coordinate{18, 39, 0, 'n'}, coordinate{226, 12, 0, 'e'})
-	fmt.Printf("Distance between Mount Sharp and Olympus Mons %5.2f km/n\n", mars.distance(mountSharp, olympusMons))
+	fmt.Printf("Distance between Mount Sharp and Olympus Mons %5.2f km\n", mars.distance(mountSharp, olympusMons))
 
 	println("-----------------------------------------------------------------")
 
 	ahmedabad := newLocation(coordinate{23, 2, 1.9068, 'n'}, coordinate{72, 35, 6.0792, 'e'})
 	delhi := newLocation(coordinate{28, 38, 41.28, 'n'}, coordinate{77, 13, 0.1956, 'e'})
-	fmt.Printf("Distance between Ahmedabad and Delhi %5.2f km/n\n", earth.distance(ahmedabad, delhi))
+	fmt.Printf("Distance between Ahmedabad and Delhi %5.2f km\n", earth.distance(ahmedabad, delhi))
 
 }
