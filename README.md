@@ -1,33 +1,40 @@
 # Get Programming With Go Solutions
+
 > This repo holds solution of all the exercises of this book
 
 ## Unit 0
+
 - [Lesson1](/Unit0/main.go)
 
 ## Unit 1
+
 - [Lesson2](/Unit1/Lesson2/main.go)
 - [Lesson3](/Unit1/Lesson3/main.go)
 - [Lesson4](/Unit1/Lesson4/main.go)
 - [Lesson5](/Unit1/Lesson5/main.go)
 
 ## Unit 2
+
 - [Lesson6](/Unit2/Lesson6/main.go)
 - [Lesson7](/Unit2/Lesson7/main.go)
 - [Lesson8](/Unit2/Lesson8/main.go)
-- Lesson9 
-    - [E-1](Unit2/Lesson9/E1/caesar.go)
-    - [E-2](Unit2/Lesson9/E2/international.go)
+- Lesson9
+  - [E-1](Unit2/Lesson9/E1/caesar.go)
+  - [E-2](Unit2/Lesson9/E2/international.go)
 - [Lesson10](Unit2/Lesson10/main.go)
 - Lesson 11
-    - [E-1](Unit2/Lesson11/E1/decipher.go)
-    - [E-2](Unit2/Lesson11/E2/cipher.go)
+  - [E-1](Unit2/Lesson11/E1/decipher.go)
+  - [E-2](Unit2/Lesson11/E2/cipher.go)
+
 ## Unit 3
+
 - [Lesson12](Unit3/Lesson12/functions.go)
 - [Lesson13](Unit3/Lesson13/methods.go)
 - [Lesson 14](Unit3/Lesson14/calibrate.go)
 - [Lesson 15](Unit3/Lesson15/tables.go)
 
 ## Unit 4
+
 - [Lesson 16](Unit4/Lesson16/chess.go)
 - [Lesson 17](Unit4/Lesson17/terraform.go)
 - [Lesson18](Unit4/Lesson18/capacity.go)
@@ -35,7 +42,9 @@
 - [Lessson20](Uniit4/Lesson20/life.go)
 
 ## Unit 5
+
 - [Lesson21](Unit5/Lesson21/landing.go)
-- [Lesson22]
-    - [E-1](Unit5/Lesson22/E1/landing.go)
-    - [E-2](Unit5/Lesson22/E2/distance.go)
+- Lesson22
+  - [E-1](Unit5/Lesson22/E1/landing.go)
+  - [E-2](Unit5/Lesson22/E2/distance.go)
+- [Lesson23](Unit5/Lesson23/gps.go)
